@@ -1,0 +1,15 @@
+# Main app environment — Python 3.13 (.venv)
+# Install:  python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+#
+# Calls to Ollama and the local MeloTTS server use the standard library (urllib),
+# so they are not listed here.
+
+google-genai        # live mode: realtime native-audio model client
+sounddevice         # microphone capture + audio playback
+numpy               # PCM / float32 audio buffers
+faster-whisper      # local mode: speech-to-text (CPU, int8)
+rumps               # macOS menu-bar app
+
+# ── optional ──
+# Pillow            # only for make_icon.py (generates the .app icon)
+# py2app            # only to build the standalone macOS .app bundle

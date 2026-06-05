@@ -1,0 +1,8 @@
+# Local TTS environment — Python 3.11 (.venv-tts), MeloTTS only.
+# Kept separate because MeloTTS's Torch stack pins an older Python than the main app.
+# Install:  python3.11 -m venv .venv-tts && .venv-tts/bin/pip install -r requirements-tts.txt
+# Run:      .venv-tts/bin/python tts_server.py   (resident server on 127.0.0.1:11435)
+#
+# Only needed for local mode with the "melo" TTS engine. Live mode does not use this.
+
+melotts

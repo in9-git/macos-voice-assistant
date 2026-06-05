@@ -1,0 +1,10 @@
+{
+  "voice": "Leda",
+  "language": "ko",
+  "speed": "normal",
+  "volume": 75,
+  "gemini_model": "gemini-2.5-flash-preview-tts",
+  "fallback_voice": "Yuna",
+  "stt_model": "small",
+  "brain_model": "gemma4:e4b"
+}
