@@ -1,0 +1,14 @@
+.env
+**/.env
+*.pem
+*credential*
+*secret*
+.venv/
+**/.venv/
+**/.venv-tts/
+build/
+dist/
+*.app/
+__pycache__/
+*.pyc
+.DS_Store
